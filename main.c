@@ -24,17 +24,6 @@ int main(void)
 	return EXIT_SUCCESS;
 }
 
-/*
-** TODO: TIC-TAC-TOE STEPS
-**       1. print grid ✓
-**       2. start player turn  ✓
-**       3. ask player where they would like to place ✓
-**       4. check if selected place is empty, make them choose again if it is occupied ✓
-**       5. once placed, update grid ✓
-**       6. check if there are three contiguous slots filled by the same symbol, if yes then end game
-**       7. if not, repeat game loop, swap player ✓
-*/
-
 void game_loop(void)
 {
 	while (!game_end)
